@@ -10,7 +10,11 @@ galaxy_info:
   - name: EL
     versions:
       - 6
-
+  - name: Amazon
+    versions:
+    - all
+  #  - 2013.03
+  #  - 2013.09
   galaxy_tags:
     - system
     - security
