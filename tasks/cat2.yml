@@ -49,6 +49,10 @@
       - "'No such file or directory' not in ipv6_inbound_packets_audit.stderr"
   tags:
       - cat2
+      - medium
+      - V-38444
+      - audit
+      - ipv6
 
 - name: "MEDIUM | V-38445 | PATCH | Audit log files must be group-owned by root."
   file:
